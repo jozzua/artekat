@@ -1,0 +1,10 @@
+source "https://www.rubygems.org"
+
+gem "sinatra"
+gem "sinatra-contrib"
+gem "slim"
+gem "instagram"
+gem "thin"
+gem "sass"
+gem "zurb-foundation"
+gem "compass"
