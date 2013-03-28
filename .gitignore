@@ -2,5 +2,3 @@
 *.swp
 *.rbc
 *.sass-cache
-/pkg
-/doc/api
