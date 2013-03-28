@@ -1,3 +1,76 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(/css/foundation.css);
+
+@font-face {
+    font-family: appleberry;
+    src: local(appleberry), url('fonts/appleberry.ttf') format('opentype');
+}
+
+// Base Colors
+
+$green: #3CB5B5;
+$yellow: #FCD920;
+$pink: #E53B51;
+$white: #FFFEFF;
+$orange: #EC6C20;
+
+body {
+
+	background: $green url('img/bggreen.png') repeat;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	font-family: appleberry;
+}
+.panel {
+	background: $green url('img/bggreen.png') repeat;
+	text-align: center;
+	border: none;
+	img {
+		position: relative;
+		top: -120px;
+		
+	}
+}
+
+
+.nav {
+	background-color: $yellow;
+	margin-bottom: 0;
+	color: $pink;
+
+}
+
+.top-bar .name {
+	h1 {
+		font-family:appleberry;
+		a {
+		color: $pink;
+		}
+	}
+}
+
+.row .content {
+	position: relative;
+	top: -120px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.soontoopen {
+	background: $yellow;
+	position: absolute;
+	top: 25px;
+	left: -30px;
+	text-align: center;
+	width: 250px;
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+
+}
