@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".panel > img").hide().fadeIn();});
+$(document).ready(function(){$(".panel > img").delay(1000).hide().fadeIn();});
